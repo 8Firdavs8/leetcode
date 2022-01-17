@@ -6,7 +6,6 @@ for i in range(9):
 print(x)
 
 # Pick Even numbers and return them in a list:
-myfunc(5,6,7,8)
 
 emptyList = []
 def myfunc (*args):
@@ -16,3 +15,17 @@ def myfunc (*args):
         else:
             pass
     return emptyList
+print(myfunc(5,6,7,8))
+
+
+def upperString(string):
+    res = []
+    for letter in range(len(string)):
+        if (letter+1)%2==0:
+            res.append(string[letter].upper())
+        else:
+            res.append(string[letter].lower())
+    return ''.join(res)
+    
+        
+print(upperString("firdavs"))
