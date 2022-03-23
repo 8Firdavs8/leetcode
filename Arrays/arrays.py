@@ -46,3 +46,15 @@ print(upperString("firdavs"))
 #             else:
 #                 stack.append(c)
 #         return True if not stack else False
+
+
+# Question 217: COntains Duplicate
+
+#    hashset = set()
+        
+#         for x in nums:
+#             if x in hashset:
+#                 return True
+#             hashset.add(x)
+#         return False
+
