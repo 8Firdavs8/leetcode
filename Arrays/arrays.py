@@ -58,3 +58,20 @@ print(upperString("firdavs"))
 #             hashset.add(x)
 #         return False
 
+
+    # def twoSum(self, nums, target):
+        
+    #     """
+    #     :type nums: List[int]
+    #     :type target: int
+    #     :rtype: List[int]
+    #     """
+        
+    #     hashmap = {}
+        
+    #     for index, val in enumerate(nums):
+    #         diff = target - val
+    #         if diff in hashmap:
+    #             return[hashmap[diff], index]
+    #         hashmap[val] = index
+    #     return
