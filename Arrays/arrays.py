@@ -75,3 +75,12 @@ print(upperString("firdavs"))
     #             return[hashmap[diff], index]
     #         hashmap[val] = index
     #     return
+    
+    
+    
+# string = "gninraeL tol a nIdeknil"[::-1]
+# stack = []
+
+# for x in range(len(string)):
+#     stack.append(string[x])
+# print(''.join(stack))
